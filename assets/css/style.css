@@ -58,7 +58,7 @@ header .line{
     background-image: url('../images/bg.jpg');
     background-position: center;
     background-size: cover;
-    padding-top: 900px;
+    padding-top: 90px;
     padding-bottom: 90px;
 }
 .banner h1{
@@ -80,4 +80,25 @@ header .line{
     border: 6px solid #117050;
     border-radius: 50%;
     margin-right: 40px;
+}
+
+.area1{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #117050;
+}
+.content{
+}
+.image1{
+    height: 347px;
+    background-image: url("../images/f2.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.image2{
+    background-image: url("../images/f1.jpg");
+    background-size: cover;
+    background-position: center;
+    grid-column: 2 / 3;
+    grid-row: 1 / 3;
 }
