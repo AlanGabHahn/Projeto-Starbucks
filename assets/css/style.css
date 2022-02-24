@@ -10,6 +10,11 @@ header .line{
     width: 1140px;
     margin: auto;
 }
+.bar{
+    background-color: #006341;
+    width: 168px;
+    height: 22px;
+}
 .header--area{
     display: flex;
     justify-content: space-between;
@@ -85,9 +90,9 @@ header .line{
 .area1{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    background-color: #117050;
 }
 .content{
+    padding: 80px;
 }
 .image1{
     height: 347px;
